@@ -22,9 +22,9 @@ st.title("Form Input Kunjungan")
 sheet = get_sheet()
 
 with st.form("form_kunjungan", clear_on_submit=True):
-    nama = st.text_input("Nama sales")
-    outlet = st.text_input("Nama outlet")
-    jumlah = st.number_input("Jumlah order", min_value=0, step=1)
+    nama = st.text_input("Nama Sales")
+    outlet = st.text_input("Nama Outlet")
+    jumlah = st.number_input("Jumlah Order", min_value=0, step=1)
     catatan = st.text_area("Catatan")
     kirim = st.form_submit_button("Simpan")
 
