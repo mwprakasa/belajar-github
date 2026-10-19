@@ -18,7 +18,7 @@ def get_sheet():
     return client.open(st.secrets["sheet_name"]).sheet1
 
 
-st.title("Form Input Kunjungan")
+st.title("Survey HJE Area Bogor")
 sheet = get_sheet()
 
 with st.form("form_kunjungan", clear_on_submit=True):
